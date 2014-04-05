@@ -1,1 +1,1 @@
-include_recipe "hhvm::#{node['hhvm']['install_method']}"
+include_recipe "hhvm3::#{node['hhvm3']['install_method']}"

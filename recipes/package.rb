@@ -36,13 +36,13 @@ end
 
 package 'hhvm'
 
-if node['hhvm']['replace_php']
+if node['hhvm3']['replace_php']
   execute 'replace php' do
     command '/usr/bin/update-alternatives --install /usr/bin/php php /usr/bin/hhvm 60'
   end
 end
 
-if node['hhvm']['install_fastcgi']
+if node['hhvm3']['install_fastcgi']
   execute 'install fastcgi' do
     command '/usr/share/hhvm/install_fastcgi.sh'
   end

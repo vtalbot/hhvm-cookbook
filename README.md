@@ -1,4 +1,4 @@
-hhvm Cookbook
+hhvm3 Cookbook
 =============
 
 Requirements
@@ -19,13 +19,13 @@ Attributes
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['hhvm']['replace_php']</tt></td>
+    <td><tt>['hhvm3']['replace_php']</tt></td>
     <td>Boolean</td>
     <td>Replace `php` with `hhvm`</td>
     <td><tt>true</tt></td>
   </tr>
   <tr>
-    <td><tt>['hhvm']['install_fastcgi']</tt></td>
+    <td><tt>['hhvm3']['install_fastcgi']</tt></td>
     <td>Boolean</td>
     <td>Install hhvm fastcgi for `apache`, `nginx` if present in system.</td>
     <td><tt>true</tt></td>
@@ -34,10 +34,10 @@ Attributes
 
 Usage
 -----
-#### hhvm::default
+#### hhvm3::default
 
 This will install HHVM using packages.
 
-#### hhvm::package
+#### hhvm3::package
 
 This will install HHVM using packages.
